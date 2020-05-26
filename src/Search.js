@@ -18,7 +18,6 @@ const Search = () => {
                 placeholder="Customer name"
               />
               <SearchButton />
-              {/* <button className="btn btn-primary">Search</button> */}
             </div>
           </form>
         </div>
