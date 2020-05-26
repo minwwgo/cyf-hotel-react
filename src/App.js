@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import Locationinfo from "./data/locationinfo.json";
 import "./App.css";
 
-const address = [
+const contactInfos = [
   "123 Fake Street, London, E1 4UD",
   "hello@fakehotel.com",
   "0123 456789"
@@ -19,7 +19,7 @@ const App = () => {
       <Header name={name} />
       <TouristInfoCards data={Locationinfo} />
       <Bookings />
-      <Footer address={address} />
+      <Footer contactInfos={contactInfos} />
     </div>
   );
 };
