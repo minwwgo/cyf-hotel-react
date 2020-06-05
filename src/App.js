@@ -5,6 +5,7 @@ import TouristInfoCards from "./TouristInfoCards";
 import Footer from "./Footer";
 import Locationinfo from "./data/locationinfo.json";
 import "./App.css";
+import Restaurant from "./Restaurant";
 
 const contactInfos = [
   "123 Fake Street, London, E1 4UD",
